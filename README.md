@@ -8,5 +8,5 @@ This tool automates personalized notification emails, bridging the gap between o
 * **Data-Driven Customization**: Automatically extracts merchant-specific details, AM contact info, and system dates, performing real-time variable replacement to generate bespoke notices.
 
 # Technical Highlights
-* **Dynamic Markdown Rendering**: Features a custom parser that converts standard Markdown-style bold text (**text**) into HTML <b> tags, ensuring the generated emails are visually structured and professional.
+* **Dynamic Markdown Rendering**: Features a custom parser that converts `**text**` into HTML `<b>` tags, ensuring the generated emails are visually structured and professional.
 * **Secure Credential Management**: Utilizes GAS Properties Service to store sensitive Document IDs, ensuring zero exposure of private credentials in the public repository.
